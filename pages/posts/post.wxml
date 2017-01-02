@@ -9,34 +9,20 @@
       <image src="/images/wx.png" class="slide-image" />
     </swiper-item>
 </swiper>
-
-<view class="post-card">
-    <view class="card-head">
-        <image class="card-avatar" src="{{avatar}}"></image>
-        <text class="card-date">{{date}}</text>
+<block wx:if="{{true}}" wx:key="unique" wx:for="{{data}}" wx:for-item="item" wx:for-index="index">
+    <view class="post-card">
+        <view class="card-head">
+            <image class="card-avatar" src="{{item.avatar}}"></image>
+            <text class="card-date">{{item.date}}-{{index}}</text>
+        </view>
+        <text class="card-title">{{item.title}}</text>
+        <image class="card-cover" src="{{item.cover}}"></image>
+        <text class="card-content">{{item.content}}</text>
+        <view class="card-footer">
+            <image class="card-icon" src="/images/icon/chat.png"></image>
+            <text class="card-sub-text">{{item.stars}}</text>
+            <image  class="card-icon" src="/images/icon/view.png"></image>
+            <text class="card-sub-text">{{item.view}}</text>
+        </view>
     </view>
-    <text class="card-title">{{title}}</text>
-    <image class="card-cover" src="{{cover}}"></image>
-    <text class="card-content">{{content}}</text>
-    <view class="card-footer">
-        <image class="card-icon" src="/images/icon/chat.png"></image>
-        <text class="card-sub-text">{{stars}}</text>
-        <image  class="card-icon" src="/images/icon/view.png"></image>
-        <text class="card-sub-text">{{view}}</text>
-    </view>
-</view>
-<view class="post-card">
-    <view class="card-head">
-        <image class="card-avatar" src="/images/avatar/1.png"></image>
-        <text class="card-date">Nov 25 2016</text>
-    </view>
-    <text class="card-title">文章标题</text>
-    <image class="card-cover" src="/images/post/crab.png"></image>
-    <text class="card-content">文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文</text>
-    <view class="card-footer">
-        <image class="card-icon" src="/images/icon/chat.png"></image>
-        <text class="card-sub-text">92</text>
-        <image  class="card-icon" src="/images/icon/view.png"></image>
-        <text class="card-sub-text">65</text>
-    </view>
-</view>
+</block>
