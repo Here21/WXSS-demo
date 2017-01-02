@@ -40,7 +40,7 @@ swiper image {
 
 .card-cover {
     width: 100%;
-    height: 500rpx;
+    height: 400rpx;
 }
 .card-content {
     font-size: 28rpx;
