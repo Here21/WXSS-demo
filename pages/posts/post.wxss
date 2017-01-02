@@ -1,0 +1,67 @@
+swiper {
+    width: 100%;
+    height: 600rpx;
+}
+swiper image {
+    width: 100%;
+    height: 600rpx;
+}
+
+.post-card {
+    display: flex;
+    margin: 16px auto;
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    flex-direction: column;
+}
+
+.card-head {
+    width: 100%;
+    height: 62rpx;
+}
+
+.card-avatar {
+    width: 60rpx;
+    height: 60rpx;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.card-date {
+    margin-left: 20rpx;
+    vertical-align: middle;
+    font-size: 26rpx;
+}
+
+.card-title {
+    font-size: 32rpx;
+    margin: 10rpx 10px;
+}
+
+.card-cover {
+    width: 100%;
+    height: 500rpx;
+}
+.card-content {
+    font-size: 28rpx;
+    color: #666;
+    margin: 10px;
+    letter-spacing: 2rpx;
+    line-height: 40rpx;
+}
+.card-footer {
+    flex-direction: row;
+    margin: 0 10px;
+    font-size: 13px;
+    color: #ccc;
+}
+.card-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.card-sub-text {
+    margin-right: 12px;
+    vertical-align: middle;
+}

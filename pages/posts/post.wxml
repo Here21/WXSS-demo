@@ -1,0 +1,42 @@
+<swiper autoplay="true" indicator-dots="true">
+    <swiper-item>
+      <image src="/images/iqiyi.png" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/vr.png" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/wx.png" class="slide-image" />
+    </swiper-item>
+</swiper>
+
+<view class="post-card">
+    <view class="card-head">
+        <image class="card-avatar" src="/images/avatar/1.png"></image>
+        <text class="card-date">Nov 25 2016</text>
+    </view>
+    <text class="card-title">文章标题</text>
+    <image class="card-cover" src="/images/post/crab.png"></image>
+    <text class="card-content">文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文</text>
+    <view class="card-footer">
+        <image class="card-icon" src="/images/icon/chat.png"></image>
+        <text class="card-sub-text">92</text>
+        <image  class="card-icon" src="/images/icon/view.png"></image>
+        <text class="card-sub-text">65</text>
+    </view>
+</view>
+<view class="post-card">
+    <view class="card-head">
+        <image class="card-avatar" src="/images/avatar/1.png"></image>
+        <text class="card-date">Nov 25 2016</text>
+    </view>
+    <text class="card-title">文章标题</text>
+    <image class="card-cover" src="/images/post/crab.png"></image>
+    <text class="card-content">文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文文章正文</text>
+    <view class="card-footer">
+        <image class="card-icon" src="/images/icon/chat.png"></image>
+        <text class="card-sub-text">92</text>
+        <image  class="card-icon" src="/images/icon/view.png"></image>
+        <text class="card-sub-text">65</text>
+    </view>
+</view>

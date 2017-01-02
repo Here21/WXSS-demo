@@ -1,0 +1,7 @@
+<view class="container">
+    <image class="avatar" src="/images/broccoli.png">image</image>
+    <text class="nickname">nickname</text>
+  <view class="motto-wrap">
+    <text class="motto">motto</text>
+  </view>
+</view>
